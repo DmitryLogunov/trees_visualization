@@ -1,0 +1,356 @@
+{"data": {
+	"items": {
+		"persons": {
+			"uid_person_1":	{
+				"name": "Василий Иванович",
+				"group": 1,
+				"sort": 90,
+				"links": {
+					"uid_business_unit_1":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "100"
+					},
+					"uid_business_unit_2":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "50"
+					},
+					"uid_business_unit_3":	{
+						"uid_link_property_type": "Номинальное",
+						"uid_link_property_share": "50"
+					}
+				},
+				"uid_property_color": "BFFF00",
+				"uid_property_display": "1"
+			},
+			"uid_person_2": {
+				"name": "Сергей Петрович",
+				"group": 1,
+				"sort": 80,
+				"links": {
+					"uid_business_unit_2": {
+						"uid_link_property_type": "Номинальное",
+						"uid_link_property_share": "50"
+					},
+					"uid_business_unit_3": {
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "50"
+					},
+					"uid_business_unit_5": {
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "100"
+					}
+				},
+				"uid_property_color": "4000FF",
+				"uid_property_display": "1"
+			},
+			"uid_person_3":	{
+				"name": "Тест 1",
+				"group": 1,
+				"sort": 30,
+				"links": {
+					"uid_business_unit_1":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "100"
+					},
+					"uid_business_unit_2":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "50"
+					},
+					"uid_business_unit_3":	{
+						"uid_link_property_type": "Номинальное",
+						"uid_link_property_share": "50"
+					}
+				},
+				"uid_property_color": "BFFF00",
+				"uid_property_display": "1"
+			},
+			"uid_person_4":	{
+				"name": "Тест 2",
+				"group": 2,
+				"sort": 20,
+				"links": {
+					"uid_business_unit_1":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "100"
+					},
+					"uid_business_unit_2":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "50"
+					},
+					"uid_business_unit_3":	{
+						"uid_link_property_type": "Номинальное",
+						"uid_link_property_share": "50"
+					}
+				},
+				"uid_property_color": "BFFF00",
+				"uid_property_display": "1"
+			},
+			"uid_person_5":	{
+				"name": "Тест 3",
+				"group": 2,
+				"sort": 50,
+				"links": {
+					"uid_business_unit_1":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "100"
+					},
+					"uid_business_unit_2":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "50"
+					},
+					"uid_business_unit_3":	{
+						"uid_link_property_type": "Номинальное",
+						"uid_link_property_share": "50"
+					}
+				},
+				"uid_property_color": "BFFF00",
+				"uid_property_display": "1"
+			},
+			"uid_person_6":	{
+				"name": "Тест 4",
+				"group": 2,
+				"sort": 11,
+				"links": {
+					"uid_business_unit_1":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "100"
+					},
+					"uid_business_unit_2":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "50"
+					},
+					"uid_business_unit_3":	{
+						"uid_link_property_type": "Номинальное",
+						"uid_link_property_share": "50"
+					}
+				},
+				"uid_property_color": "BFFF00",
+				"uid_property_display": "1"
+			},
+			"uid_person_7":	{
+				"name": "Тест 5",
+				"group": 2,
+				"sort": 10,
+				"links": {
+					"uid_business_unit_1":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "100"
+					},
+					"uid_business_unit_2":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "50"
+					},
+					"uid_business_unit_3":	{
+						"uid_link_property_type": "Номинальное",
+						"uid_link_property_share": "50"
+					}
+				},
+				"uid_property_color": "BFFF00",
+				"uid_property_display": "1"
+			},
+			"uid_person_8":	{
+				"name": "Тест 6",
+				"group": 2,
+				"sort": 12,
+				"links": {
+					"uid_business_unit_1":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "100"
+					},
+					"uid_business_unit_2":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "50"
+					},
+					"uid_business_unit_3":	{
+						"uid_link_property_type": "Номинальное",
+						"uid_link_property_share": "50"
+					}
+				},
+				"uid_property_color": "BFFF00",
+				"uid_property_display": "1"
+			},
+			"uid_person_9":	{
+				"name": "Тест 7",
+				"group": 2,
+				"sort": 70,
+				"links": {
+					"uid_business_unit_1":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "100"
+					},
+					"uid_business_unit_2":	{
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "50"
+					},
+					"uid_business_unit_3":	{
+						"uid_link_property_type": "Номинальное",
+						"uid_link_property_share": "50"
+					}
+				},
+				"uid_property_color": "BFFF00",
+				"uid_property_display": "1"
+			}
+		},
+		"business_units": {
+			"uid_business_unit_1": {
+				"name": "Компания 1",
+				"group": 3,
+				"sort": 1,
+				"links": {},
+				"uid_property_group": "Холдинг Рога и Копыта",
+				"uid_property_type": "ООО",
+				"uid_property_display": "1"
+			},
+			"uid_business_unit_2": {
+				"name": "Компания 2",
+				"group": 3,
+				"sort": 1,
+				"links": {
+					"uid_business_unit_4": {
+						"uid_link_property_type": "Номинальное",
+						"uid_link_property_share": "100"
+					}
+				},
+				"uid_property_group": "Холдинг Рога и Копыта",
+				"uid_property_type": "ООО",
+				"uid_property_display": "0"
+			},
+			"uid_business_unit_3": {
+				"name": "Компания 3",
+				"group": 3,
+				"sort": 1,
+				"links": {
+					"uid_business_unit_6": {
+						"uid_link_property_type": "Фактическое",
+						"uid_link_property_share": "100"
+					}
+				},
+				"uid_property_group": "Холдинг Рога и Копыта",
+				"uid_property_type": "Акционерное общество",
+				"uid_property_display": "1"
+			},
+			"uid_business_unit_4": {
+				"name": "Компания 4",
+				"group": 3,
+				"sort": 1,
+				"links": {},
+				"uid_property_group": "ГК АVIA",
+				"uid_property_type": "ООО",
+				"uid_property_display": "0"
+			},
+			"uid_business_unit_5": {
+				"name": "Компания 5",
+				"group": 4,
+				"sort": 1,
+				"links": {},
+				"uid_property_group": "ГК АVIA",
+				"uid_property_type": "ООО",
+				"uid_property_display": "1"
+			},
+			"uid_business_unit_6": {
+				"name": "Компания 6",
+				"group": 4,
+				"sort": 1,
+				"links": {},
+				"uid_property_group": "НарКомЛикерПром",
+				"uid_property_type": "ИП",
+				"uid_property_display": "1"
+			}
+		}
+	},
+	"categories": {
+		"persons": {
+			"name": "Физические лица",
+			"style": "uid_style_default",
+			"properties": {
+				"uid_property_color": {
+					"name": "color",
+					"sort": 1,
+					"style": "uid_style_default",
+					"values": {
+						"BFFF00": "uid_style_BFFF00",
+						"4000FF": "uid_style_4000FF"
+					}
+				},
+				"uid_property_display": {
+					"name": "display",
+					"sort": 2,
+					"style": "uid_style_default",
+					"values": {
+						"0": "uid_style_display_0",
+						"1": "uid_style_display_1"
+					}
+				}
+			}
+		},
+		"business_units": {
+			"name": "Юридическе лица",
+			"style": "uid_style_default",
+			"properties": {
+				"uid_property_group": {
+					"name": "group",
+					"sort": 0,
+					"style": "uid_style_default",
+					"values": {
+						"Холдинг Рога и Копыта": "uid_style_DA81F5",
+						"ГК АVIA": "uid_style_00BFFF",
+						"НарКомЛикерПром": "uid_style_ff0000"
+					}
+				},
+				"uid_property_type": {
+					"name": "type",
+					"style": "uid_style_default",
+					"sort": 0,
+					"values": {
+						"ИП": "",
+						"ООО": "",
+						"Акционерное общество": ""
+					}
+				},
+				"uid_property_display": {
+					"name": "display",
+					"sort": 0,
+					"style": "uid_style_default",
+					"values": {
+						"0": "",
+						"1": ""
+					}
+				}
+			}
+		}
+	},
+	"link_properties": {
+		"uid_link_property_type": {
+			"name": "Тип владения",
+			"style": "uid_style_default",
+			"values": {
+				"Фактическое": "uid_style_BFFF00",
+				"Номинальное": "uid_style_4000FF"
+			}
+		},
+		"uid_link_property_share": {
+			"name": "Степень владения",
+			"style": "uid_style_default",
+			"values": {
+				"10": "",
+				"20": "",
+				"30": "",
+				"40": "",
+				"50": "",
+				"60": "",
+				"70": "",
+				"80": "",
+				"90": "",
+				"100": ""
+			}
+		}
+	},
+	"styles": {
+		"uid_style_default": {"background-color": "#FFF"},
+		"uid_style_BFFF00": {"background-color": "#BFFF00"},
+		"uid_style_4000FF": {"background-color": "#4000FF"},
+		"uid_style_display_0": {"background-color": "#FFF"},
+		"uid_style_display_1": {"background-color": "#e0e0e0"}
+	}
+}
+}
