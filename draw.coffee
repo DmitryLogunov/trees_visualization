@@ -34,7 +34,7 @@ class Draw
           width = positions[0]['right'] - positions[0]['left']
           height = positions[0]['bottom'] - positions[0]['top']
           $this.draw.rect(width, height).radius(8).fill('yellow').move(left, top)
-
+        
   class StylesParser
     constructor: (properties_settings) ->
       @properties_settings = properties_settings
@@ -65,6 +65,18 @@ class Draw
       # - определяем приоритетеный стиль по всем properties /merged_properties_style/ (merge c учетом sort по каждому значению хэшей определений стилей)
       # - merge default_category_style и merged_properties_style (c приоритетом merged_properties_style по каждому свойству хэшей определений стилей)
 
+      $this = this
+      item_styles = this.get_item_styles(item_type, item_data)
+      item_result_style =
+        'style': item_styles['default_category_style'],
+        'sort': -1
+      for property_uid, property_style of item_styles['properties_styles']
+        merged_property_style =
+          $this.merge_styles({'style': property_style['default_property_style'], 'sort': 0},
+                             {'style': property_style['value_style'], 'sort': property_style['sort']})
+        item_result_style = $this.merge_styles(item_result_style, merged_property_style)
+      item_result_style['style']
+
     merge_styles: (first_style, second_style) ->
       # first_style, second_style = {'style': {хэш с определением стиля, ключи - свойства css}, 'sort': числовое_значение_веса_стиля }
       # возвращает {хэш с определением стиля; ключи - свойства css, объединение ключей обоих стилей}
@@ -74,6 +86,17 @@ class Draw
       # -- добавлем в результирующий хэш значения для каждого совйства, перебирая по всем ключам и сравнивая веса стилей:
       #    --- если в одном из хешей стилей ключа нет - берем значение из того, в котором значения для ключа определено
       #    --- если определено в обоих хэшах, берем из того, в котором sort больше; если sort одинаковое - берем значение из first_style
+
+      merged_style = {}
+      merged_style_keys = Object.keys(first_style['style'])
+                            .concat(Object.keys(second_style['style']))
+                            .filter((x, i, a) -> a.indexOf(x) == i)
+      for key in merged_style_keys
+        merged_style[key] = first_style['style'][key] unless second_style['style'][key]?
+        merged_style[key] = second_style['style'][key] unless first_style['style'][key]?
+        if first_style['style'][key]? && second_style['style'][key]?
+          merged_style[key] = if first_style['sort'] >= second_style['sort'] then first_style['style'][key] else second_style['style'][key]
+      {'style': merged_style, 'sort': Math.max(first_style['sort'], second_style['sort'])}
 
 init = (width, height, properties_settings) ->
   new Draw(width, height, properties_settings)

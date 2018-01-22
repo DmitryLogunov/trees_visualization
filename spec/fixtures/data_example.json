@@ -346,7 +346,7 @@
 		}
 	},
 	"styles": {
-		"uid_style_default": {"background-color": "#FFF"},
+		"uid_style_default": {"background-color": "#FFF", "border-color": "#000", "border-width": "2px"},
 		"uid_style_BFFF00": {"background-color": "#BFFF00"},
 		"uid_style_4000FF": {"background-color": "#4000FF"},
 		"uid_style_display_0": {"background-color": "#FFF"},
